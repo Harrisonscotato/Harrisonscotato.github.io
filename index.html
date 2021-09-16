@@ -12,6 +12,9 @@
           .changeColor {
                 background-color: teal;
     }
+          .undoChange {
+                background-color: '#fff';
+    }
   </style>
   <script language="javascript">
         function myButton() {
@@ -20,9 +23,10 @@
               }
         function styleChange() {
                   if(document.body.style.backgroundColor = "#fff"){
-                      thingToChange.changeColor = "";
+                      document.body.className = "changeColor";
                   } else {
-                      document.body.style.backgroundColor = "#fff";
+                      document.body.className = "undoChange";
+                        
                   }
         }
   </script>
