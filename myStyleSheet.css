@@ -1,10 +1,6 @@
 .changeColor {
-	<div class="mbr-overlay">
 	background-color: teal;
-	</div>
 }
 .undoChange {
-	<div class="mbr-overlay">
 	background-color: white;
-	</div>
 }
