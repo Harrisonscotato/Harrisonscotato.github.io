@@ -23,10 +23,7 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   <script language="javascript">
-  function myButton() {
-                   window.open("https://twitter.com/vudu_mama_juju",
-                               " ", "width = 1000, height = 1000");
-               }
+  
   function styleChange() {
                      if (document.body.style.background = '#fff') {
                        document.body.className = "changeColor";
@@ -34,6 +31,13 @@
                        document.body.className = "undoChange";
                    }
   }
+	function styleRevert() {
+		    if (document.body.style.background = 'teal') {
+			    document.body.className = "undoChange"
+		    } else {
+			    document.body.className = "changeColor";
+		    }
+	}
  </script>
   
   <style>
@@ -92,6 +96,7 @@
             <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Harrison Scott</strong></h4>
             
           <button onclick="javascript:styleChange()">Change Color!</button>
+		<button onclick="javascript:styleRevert()">Undo Change!</button>
         </div>
         <div class="row mt-4">
             <div class="item features-image сol-12 col-md-6 col-lg-4 active">
