@@ -1,8 +1,6 @@
 .changeColor {
-	background-image: '';
 	background-color: teal;
 }
 .undoChange {
-	background-color: '#fff';
-	background-image: 'background.jpg';
+	background-color: white;
 }
