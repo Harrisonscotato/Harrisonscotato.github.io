@@ -1,6 +1,8 @@
 .changeColor {
+	class="mbr-overlay"
 	background-color: teal;
 }
 .undoChange {
+	class="mbr-overlay"
 	background-color: white;
 }
